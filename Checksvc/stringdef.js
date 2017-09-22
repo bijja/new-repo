@@ -1,0 +1,11 @@
+var APP_MUTEX = "CheckService";
+var strIndex = 0;
+var ERR_UNKNOWN_STRING  = strIndex++;
+var TXT_APP_NAME        = strIndex++;
+var TXT_CHECK_STATUS    = strIndex++;
+var TXT_WAIT_STATUS     = strIndex++;
+var ERR_NOT_INSTALLED   = strIndex++;
+var ERR_NOT_RUNNING     = strIndex++;
+var ERR_UNKNOWN         = strIndex++;
+var ERR_DB_NOT_RUNNING	=strIndex++
+var MAX_STRING_INDEX    = strIndex;
