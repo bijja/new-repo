@@ -9,4 +9,6 @@ function en_InitStrings(MsgArray)
     MsgArray[ERR_NOT_INSTALLED] = "The HPE Systems Insight Manager Service is not installed.";
     MsgArray[ERR_NOT_RUNNING] = "The HPE Systems Insight Manager Service is not running.";
     MsgArray[ERR_DB_NOT_RUNNING] = "Unable to connect to database. Check if database service is running.";
+	 MsgArray[ERR_DB_NOT_RUNNING] = "Unable to connect to database. Check if database service is running.and adding";
+	  MsgArray[ERR_DB_NOT_RUNNING] = "Unable to connect to database. Check if database service is running.but failing";
 };
