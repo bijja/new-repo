@@ -1,4 +1,8 @@
-freeStyleJob('example') {
+folder('hpsim-jobs') {
+    displayName('hpsim-jobs')
+    description('Folder for hpsim-jobs')
+}
+freeStyleJob('hpsim-jobs/freestyle-job') {
     logRotator(-1, 10)
     jdk('JAVA_HOME')
     scm {
@@ -13,4 +17,5 @@ freeStyleJob('example') {
     publishers {
         archiveArtifacts('target/*.war')
     }
+    
 }
