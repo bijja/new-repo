@@ -6,7 +6,7 @@ freeStyleJob('hpsim-jobs/freestyle-job') {
     logRotator(-1, 10)
     jdk('JAVA_HOME')
     scm {
-        github('https://github.com/bijja/new-repo.git', 'master')
+        github('bijja/new-repo', 'master')
     }
     triggers {
         scm ('H/5 * * * *')
