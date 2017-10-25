@@ -12,7 +12,7 @@ freeStyleJob('hpsim-jobs/freestyle-job') {
         scm ('H/5 * * * *')
     }
     steps {
-       maven('clean verify')
+       maven('clean verify install package test')
     }
     publishers {
         archiveArtifacts('target/*.war')
